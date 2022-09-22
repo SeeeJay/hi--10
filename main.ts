@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onGesture(Gesture.Shake, function () {
     for (let index = 0; index <= 9; index++) {
         basic.clearScreen()
         basic.showString("Hi")
